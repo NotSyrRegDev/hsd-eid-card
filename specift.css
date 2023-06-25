@@ -1,0 +1,458 @@
+/* 
+
+COLORS : 
+
+
+RED COLOR : ##c9132c
+
+BLACK COLOR : ##010101 
+
+GRAY COLOR : ##686868
+
+BLUE COLOR : #263069
+
+WHITE COLOR : #fafafa
+
+
+*/
+
+#forming_typing {
+    display: none;
+}
+
+.inner_bg {
+
+}
+
+.logo_tahami {
+    max-height: 5.5rem;
+}
+
+.mt-1 { margin-top: 1rem !important;}
+.mt-2 { margin-top: 1.5rem !important;}
+.mt-3 { margin-top: 2rem !important;}
+.mt-4 { margin-top: 3rem !important;}
+.mt-5 { margin-top: 4rem !important;}
+.mt-6 { margin-top: 5rem !important;}
+.mt-7 { margin-top: 6rem !important;}
+.mt-8 { margin-top: 7rem !important;}
+.mt-9 { margin-top: 8rem !important;}
+.mt-10 { margin-top: 9rem !important;}
+
+
+.mb-1 { margin-bottom: 1rem !important;}
+.mb-2 { margin-bottom: 1.5rem !important;}
+.mb-3 {margin-bottom: 2rem !important;}
+.mb-4 {margin-bottom: 3rem !important;}
+.mb-5 {margin-bottom: 4rem !important;}
+
+#flex_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.underlined_text {
+    padding-bottom: 1px;
+    border-bottom: 1px solid  rgba(255,255,255,0.478);
+    cursor: pointer !important;
+}
+
+.flex_row_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#text04 {
+    color: #010101;
+    font-family: 'Cairo', sans-serif;
+    letter-spacing: -0.025rem;
+    width: 100%;
+    font-size: 42px;
+    line-height: 1.125;
+    font-weight: 300;
+    text-align: center;
+}
+
+.small_icon {
+    max-height: 1.8rem;
+    margin: 0 8px;
+}
+
+#text01 {
+    color: #686868;
+    font-family: 'Cairo', sans-serif;
+   font-size: 20px;
+    line-height: 2;
+    font-weight: 300;
+    text-align: center;
+}
+
+.subheadline_main {
+    font-family: 'Alexandria' , sans-serif;
+    font-size: 20px;
+    color: #010101;
+    margin-bottom: 0.5rem;
+}
+
+.underlined_para {
+    font-family: 'Alexandria' , sans-serif;
+    font-size: 18px;
+    color: #010101;
+    transition: all 0.2s ease-in;
+    padding-bottom: 8px;
+}
+
+.my-2 {
+    margin: 2rem 0;
+}
+
+.underlined_para:hover { 
+    border-bottom: 1px solid #fff;
+  
+}
+
+.d-flex-c {
+    display: flex;
+    align-items: center;
+}
+
+.action_div {
+    width: 100%;
+   }
+
+   .icon_btn {
+    max-height: 2.1rem;
+    margin: 0 12px;
+   }
+
+   #forming_result {
+    display: none;
+    padding: 3rem 0;
+   }
+
+   #error-message {
+    font-family: 'Cairo' , sans-serif;
+    font-size: 22px;
+  
+    color: #c60202;
+    text-align: center;
+    margin: 2.5rem 0;
+    font-weight: bold !important;
+    display: none;
+   }
+
+  #canvas-container canvas {
+    border-radius: 20px;
+    max-height: 32rem;
+  }
+
+   .show_btn {
+    background: #263069;
+    color: #FFF;
+    padding: 0.6rem 1.8rem;
+    border-radius: 500px;
+    font-size: 18px;
+    font-family: 'Cairo';
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    text-align: center;
+    border: none !important;
+   
+}
+
+.text-center {
+    text-align: center;
+}
+   
+   .input_form {
+    background: #f9f9f9;
+    color: #171D1C;
+    border: 2px solid #686868;
+    height: 2.5rem;
+    width: 100%;
+    min-width: 350px;
+    font-family: 'Cairo', sans-serif;
+    text-align: right;
+    padding: 1.5rem 2.5rem;
+}
+.input_form:hover ,  .input_form:active {
+ border: 2px solid #c9132c;
+}
+
+.input_form::placeholder {
+ opacity: 0.6;
+}
+
+
+.card:hover {
+    transform: scale(1.02);
+    filter: drop-shadow(0px 0px 100px #acacac);
+  }
+  .card-grid:hover > .card:not(:hover).card {
+    filter: brightness(0.8) grayscale(0.6) contrast(1.2) blur(10px);
+  }
+  
+ 
+  
+
+  .hero-section {
+    min-height: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    width: 100%;
+  }
+  @media (max-width: 1000px) {
+    .card-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (max-width: 620px) {
+    .card-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  .card {
+    list-style: none;
+    position: relative;
+    transition: all 0.5s ease-out;
+  }  
+
+
+.card__bg {
+    position: relative;
+    height: 50vh;
+    min-width: 250px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 1rem;
+    overflow: hidden;
+    transform: scale(1);
+    transition: all 0.5s ease-out;
+  }
+ 
+
+  @media (max-width: 1100px) { 
+
+    .card {
+      
+      max-width: 250px;
+    }
+   
+
+  }
+
+  @media (max-width: 1050px) {
+    .card {
+      
+      max-width: 220px;
+    }
+  }
+
+  @media (max-width: 850px) {
+    .grid_cards {
+      grid-template-columns: repeat( 2 , 1fr );
+      grid-gap: 1.5rem;
+    }
+    .card {
+      
+      max-width: 420px;
+    }
+  }
+  @media (max-width: 750px) {
+   
+    .container-mid {
+      padding: 0 20px;
+    }
+    .card {
+      
+      max-width: 260px;
+    }
+  }
+
+  @media (max-width: 600px) { 
+    .card {
+        max-width: 100%;
+      min-width: 400px;
+    }
+    .card__bg {
+        height: 80vh;
+       
+    }
+  }
+
+ 
+  @media (max-width: 500px) {
+    .subheadline_main {
+        font-size: 16px;
+    }
+    .input_form {
+        min-width: 210px;
+    }
+    .logo_tahami {
+        max-height: 4.2rem;
+    }
+    #text04 { 
+        font-size: 32px;
+    }
+    #text01 {
+        font-size: 16px;
+    }
+    #canvas-container canvas { 
+        max-height: 25rem;
+    }
+    .card {
+        max-width: 100%;
+      min-width: 350px;
+    }
+    .grid_cards {
+      grid-template-columns: repeat( 1 , 1fr );
+    }
+    .card__bg {
+        height: 60vh;
+       
+    }
+  }
+
+  @media (max-width: 350px) {
+    .subheadline_main {
+        font-size: 14px;
+    }
+    
+    #canvas-container canvas { 
+        max-height: 20rem;
+    }
+    
+    .card {
+        max-width: 90%;
+      min-width: 220px;
+    }
+    .card__bg {
+        height: 50vh;
+       min-width: 220px;
+    }
+   }
+
+ #after-loading-container {
+    display: none;
+ }
+
+
+
+  .container {
+    height: 38vh;
+    
+  }
+  
+  .loader {
+    height: 20px;
+    width: 250px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  
+  .loader--dot {
+    animation-name: loader;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: black;
+    position: absolute;
+    border: 2px solid white;
+  }
+  
+  .loader--dot:first-child {
+    background-color: #8cc759;
+    animation-delay: 0.5s;
+  }
+  
+  .loader--dot:nth-child(2) {
+    background-color: #8c6daf;
+    animation-delay: 0.4s;
+  }
+  
+  .loader--dot:nth-child(3) {
+    background-color: #ef5d74;
+    animation-delay: 0.3s;
+  }
+  
+  .loader--dot:nth-child(4) {
+    background-color: #f9a74b;
+    animation-delay: 0.2s;
+  }
+  
+  .loader--dot:nth-child(5) {
+    background-color: #60beeb;
+    animation-delay: 0.1s;
+  }
+  
+  .loader--dot:nth-child(6) {
+    background-color: #fbef5a;
+    animation-delay: 0s;
+  }
+  
+  .loader--text {
+    position: absolute;
+    top: 200%;
+    left: 0;
+    right: 0;
+    width: 10rem;
+    margin: auto;
+    font-family: 'Cairo' ,sans-serif;
+  }
+  
+  .loader--text:after {
+    content: "جاري التحميل ..";
+    font-weight: bold;
+    animation-name: loading-text;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes loader {
+    15% {
+      transform: translateX(0);
+    }
+    45% {
+      transform: translateX(230px);
+    }
+    65% {
+      transform: translateX(230px);
+    }
+    95% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes loading-text {
+    0% {
+      content: "جاري التحميل";
+    }
+    25% {
+      content: "جاري التحميل.";
+    }
+    50% {
+      content: "جاري التحميل ..";
+    }
+    75% {
+      content: "جاري التحميل ...";
+    }
+  }
