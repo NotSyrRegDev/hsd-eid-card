@@ -149,9 +149,26 @@ WHITE COLOR : #fafafa
     border-radius: 20px;
     max-height: 32rem;
   }
+  a {
+    text-decoration: none !important;
+  }
 
    .show_btn {
     background: #263069;
+    color: #FFF;
+    padding: 0.6rem 1.8rem;
+    border-radius: 500px;
+    font-size: 18px;
+    font-family: 'Cairo';
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    text-align: center;
+    border: none !important;
+   
+}
+
+   .twiiter_btn {
+    background: #1da1f2;
     color: #FFF;
     padding: 0.6rem 1.8rem;
     border-radius: 500px;
@@ -197,7 +214,9 @@ WHITE COLOR : #fafafa
   }
   
  
-  
+  .d-block {
+    display: block ;
+  }
 
   .hero-section {
     min-height: 100%;
