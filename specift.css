@@ -358,8 +358,8 @@ WHITE COLOR : #fafafa
       min-width: 220px;
     }
     .card__bg {
-        height: 50vh;
-       min-width: 220px;
+      height: 50vh;
+      min-width: 280px;
     }
    }
 
