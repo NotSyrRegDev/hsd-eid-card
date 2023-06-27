@@ -306,7 +306,9 @@ WHITE COLOR : #fafafa
       min-width: 400px;
     }
     .card__bg {
-        height: 80vh;
+
+        height: 90vh;
+        min-width: 500px;
        
     }
   }
@@ -339,7 +341,8 @@ WHITE COLOR : #fafafa
       grid-template-columns: repeat( 1 , 1fr );
     }
     .card__bg {
-        height: 60vh;
+      height: 60vh;
+      min-width: 300px;
        
     }
   }
@@ -358,8 +361,8 @@ WHITE COLOR : #fafafa
       min-width: 220px;
     }
     .card__bg {
-      height: 50vh;
-      min-width: 280px;
+      height: 40vh;
+        min-width: 250px;
     }
    }
 
